@@ -4,6 +4,7 @@ public class kniha {
     private int pocetstran;
     private boolean jevypujcena;
     private String zapujcil;
+    private String vratitel;
 
     public kniha(String nazev, String autor, int pocetstran) {
         this.nazev = nazev;
@@ -11,6 +12,7 @@ public class kniha {
         this.pocetstran = pocetstran;
         jevypujcena = false;
         this.zapujcil = null;
+        this.vratitel = null;
     }
     public void vypujcit(String pujcil){
         if(jevypujcena) {
@@ -25,10 +27,20 @@ public class kniha {
 
 
     }
-    public void vratit(String vratil){
-        jevypujcena = false;
+    public void vratit(String vratil) {
+        if (jevypujcena) {
+            if (zapujcil == vratil) {
+                jevypujcena = false;
+                vratitel = vratil;
+                System.out.println("knihu vratil " + vratitel);
+            } else {
+                System.out.println("nejde vratit knihu pujcil nekdo jiny");
+            }
+        }
+        else {
+            System.out.println("kniha je pujcena " + zapujcil);
+        }
     }
-
     @Override
     public String toString() {
         return "kniha{" +
@@ -44,8 +56,12 @@ public class kniha {
 
         System.out.println(a);
         System.out.println(b);
+        System.out.println("Jan si jde vypujcit");
+        a.vypujcit("jan");
+        System.out.println("knihu si jde pujcit petr");
         a.vypujcit("petr");
-        System.out.println(a);
-        System.out.println(a);
+        System.out.println("Jan jde vratit");
+        a.vratit("petr");
+
     }
 }
