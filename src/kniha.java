@@ -11,7 +11,7 @@ public class kniha {
         this.autor = autor;
         this.pocetstran = pocetstran;
         jevypujcena = false;
-        this.zapujcil = null;
+        this.zapujcil = null;  
         this.vratitel = null;
     }
     public void vypujcit(String pujcil){
