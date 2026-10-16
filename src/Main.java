@@ -1,9 +1,9 @@
 public class Main {
     static void main() {
-        bod bod1 = new bod(10,10);
-        bod bod2 = new bod(20,25);
+        Bod bod1 = new Bod(10,10);
+        Bod bod2 = new Bod(20,25);
 
-        kruh k1 = new kruh(vzdalenost,3.2);
+        Kruh k1 = new Kruh(bod1,bod1.vzdalenost(bod2));
 
 
         System.out.println(bod1);
@@ -11,6 +11,7 @@ public class Main {
         System.out.println(k1);
         double vzdalenost = bod1.vzdalenost(bod2);
         System.out.println(vzdalenost);
+
 
 
     }

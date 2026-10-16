@@ -1,12 +1,12 @@
-public class bod {
+public class Bod {
     private int x;
     private int y;
 
-    public bod(int x, int y) {
+    public Bod(int x, int y) {
         this.x = x;
         this.y = y;
     }
-public double vzdalenost(bod soused) {
+public double vzdalenost(Bod soused) {
         int bodx1 = this.x - soused.x;
         int body1 = this.y - soused.y;
 
@@ -19,6 +19,9 @@ public double vzdalenost(bod soused) {
 
     public int getY() {
         return y;
+    }
+    public double plocha(){
+        return 0.0;
     }
 
     @Override

@@ -1,8 +1,8 @@
-public class kruh  {
-    private bod stred;
+public class Kruh {
+    private Bod stred;
     private double r;
 
-    public kruh(bod stred, double r) {
+    public Kruh(Bod stred, double r) {
         this.stred = stred;
         this.r = r;
     }
