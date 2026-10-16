@@ -12,7 +12,7 @@ public class kniha {
         this.pocetstran = pocetstran;
         jevypujcena = false;
         this.zapujcil = null;
-        this.vratitel = null;hh
+        this.vratitel = null;
     }
     public void vypujcit(String pujcil){
         if(jevypujcena) {
