@@ -7,6 +7,10 @@ public class Kruh {
         this.r = r;
     }
 
+    public double getR() {
+        return r;
+    }
+
     @Override
     public String toString() {
 

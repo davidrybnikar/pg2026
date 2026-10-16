@@ -15,5 +15,7 @@ public class Ctverec {
                 ", a=" + a +
                 '}';
     }
-    public double plocha();
+    public double plocha(){
+        return 2 * r;
+    }
 }
