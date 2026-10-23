@@ -9,6 +9,7 @@ public class vypiszvire {
         z3.jmeno = "Erik";
         z2.jmeno = "nazar";
         z.jmeno = "alik";
+        z.barvavoditka = "zelena";
         System.out.println(z.info());
         System.out.println(z1.info());
         System.out.println(z2.info());

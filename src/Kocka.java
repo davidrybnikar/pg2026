@@ -8,4 +8,7 @@ public class Kocka extends savec {
     public String mujzvuk(){
         return "mnau";
     }
+    public String dejdelkukojeni(){
+        return "80 dni";
+    }
 }
