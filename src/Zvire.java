@@ -17,7 +17,7 @@ public class Zvire {
         return "...";
     }
     public String info() {
-        String odpoved = "jmeno: " + jmeno + "\n";
+        String odpoved = "======= " + jmeno + " =======\n";
         odpoved += "Druh:"+ mujdruh() +"\n";
         odpoved += "Poddruh:"+ mujpoddruh() +"\n";
         odpoved += "Pocet nohou:"+ mojenohy() +"\n";

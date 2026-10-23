@@ -1,9 +1,6 @@
-public class Pes extends Zvire {
+public class Pes extends savec {
     public String mujdruh(){
         return "pes";
-    }
-    public String mujpoddruh(){
-        return "savec";
     }
     public int mojenohy(){
         return 4;
