@@ -13,13 +13,8 @@ public class Pes extends savec {
         return "56 dni";
     }
     public String info() {
-        String odpoved = "======= " + jmeno + " =======\n";
+        String odpoved = super.info();
         odpoved += "barva voditka: " + barvavoditka+ "\n";
-        odpoved += "Druh:"+ mujdruh() +"\n";
-        odpoved += "Poddruh:"+ mujpoddruh() +"\n";
-        odpoved += "Pocet nohou:"+ mojenohy() +"\n";
-        odpoved += "Zvuk:"+ mujzvuk() +" \n";
-        odpoved += "Koji dni: "+ dejdelkukojeni() + "\n";
         return odpoved;
     }
 }
