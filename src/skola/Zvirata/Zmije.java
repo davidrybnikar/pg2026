@@ -1,4 +1,4 @@
-package skola;
+package skola.Zvirata;
 
 public class Zmije extends Zvire{
     public String mujdruh(){

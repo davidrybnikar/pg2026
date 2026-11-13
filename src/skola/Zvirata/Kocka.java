@@ -1,4 +1,4 @@
-package skola;
+package skola.Zvirata;
 
 public class Kocka extends savec {
     public String mujdruh(){

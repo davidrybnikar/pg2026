@@ -1,4 +1,4 @@
-package skola;
+package skola.Tvary;
 
 public class Bod {
     private int x;

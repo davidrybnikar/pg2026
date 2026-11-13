@@ -5,7 +5,7 @@ public class Ctverec extends Rohaty{
         return 4.1*4;
     }
     public String druh() {
-        return "skola.Ctverec";
+        return "skola.Tvary.Ctverec";
     }
     public String info() {
         String odpoved = super.info();

@@ -1,4 +1,4 @@
-package skola;
+package skola.Zvirata;
 
 public class Zvire {
     String jmeno;

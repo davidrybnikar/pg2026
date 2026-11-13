@@ -1,8 +1,8 @@
-package skola;
+package skola.Zvirata;
 
 public class savec extends Zvire {
     public String mujpoddruh() {
-        return "skola.savec";
+        return "skola.Zvirata.savec";
     }
     public String dejdelkukojeni() {
         return null;

@@ -8,7 +8,7 @@ public class Main {
         Ctverec c1 = new Ctverec();
         PTrojuhelnik t1 = new PTrojuhelnik();
         Kruh k1 = new Kruh();
-        Arrays.sort(P)
+        Arrays.sort(P);
 
         System.out.println(k1.info());
         System.out.println(t1.info());

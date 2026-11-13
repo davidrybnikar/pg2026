@@ -2,7 +2,7 @@ package pisemka;
 
 public class Kruh extends Obly{
     public String druh() {
-        return "skola.Kruh";
+        return "skola.Tvary.Kruh";
     }
     public double obvod(){
         return 3.14*2*4.7;
