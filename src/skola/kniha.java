@@ -1,3 +1,5 @@
+package skola;
+
 public class kniha {
     private String nazev;
     private String autor;
@@ -38,12 +40,12 @@ public class kniha {
             }
         }
         else {
-            System.out.println("kniha je pujcena " + zapujcil);
+            System.out.println("skola.kniha je pujcena " + zapujcil);
         }
     }
     @Override
     public String toString() {
-        return "kniha{" +
+        return "skola.kniha{" +
                 "nazev='" + nazev + '\'' +
                 ", autor='" + autor + '\'' +
                 ", pocetstran=" + pocetstran +

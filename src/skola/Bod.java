@@ -1,3 +1,5 @@
+package skola;
+
 public class Bod {
     private int x;
     private int y;

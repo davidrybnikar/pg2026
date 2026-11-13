@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package skola;
 
 public class vypiszvire {
     static void main() {

@@ -1,6 +1,8 @@
+package skola;
+
 public class savec extends Zvire {
     public String mujpoddruh() {
-        return "savec";
+        return "skola.savec";
     }
     public String dejdelkukojeni() {
         return null;

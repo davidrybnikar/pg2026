@@ -1,3 +1,5 @@
+package skola;
+
 public class Ctverec {
     private Bod roh1;
     private int a;

@@ -2,7 +2,7 @@ package pisemka;
 
 public class Bod extends Obly{
     public String druh() {
-        return "Bod";
+        return "skola.Bod";
     }
 
     public String info() {

@@ -1,3 +1,5 @@
+package skola;
+
 public class Pes extends savec {
     String barvavoditka;
     public String mujdruh(){

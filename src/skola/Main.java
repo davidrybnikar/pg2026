@@ -1,3 +1,5 @@
+package skola;
+
 public class Main {
     static void main() {
         Bod bod1 = new Bod(10,10);

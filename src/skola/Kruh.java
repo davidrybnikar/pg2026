@@ -1,3 +1,5 @@
+package skola;
+
 public class Kruh {
     private Bod stred;
     private double r;

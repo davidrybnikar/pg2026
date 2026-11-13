@@ -1,3 +1,5 @@
+package skola;
+
 public class Kocka extends savec {
     public String mujdruh(){
         return "kocka";

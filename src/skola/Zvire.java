@@ -1,3 +1,5 @@
+package skola;
+
 public class Zvire {
     String jmeno;
 

@@ -1,3 +1,5 @@
+package skola;
+
 public class Zmije extends Zvire{
     public String mujdruh(){
         return "zmije";
