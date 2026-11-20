@@ -5,33 +5,39 @@ public class Clovek implements Comparable<Clovek> {
     private String jmeno;
     private String prijmeni;
 
-    public Clovek(String jmeno, String prijmeni) {
+
+    public Clovek(String jmeno, String prijmeni ) {
         this.jmeno = jmeno;
         this.prijmeni = prijmeni;
-    }
-    @Override
-    public int compareTo(Clovek jinyClovek) {
-        int vysledekPrijmeni = this.prijmeni.compareTo(jinyClovek.prijmeni);
-        if (vysledekPrijmeni == 0) {
-            return this.jmeno.compareTo(jinyClovek.jmeno);
-        }
 
-        return vysledekPrijmeni;
+    }
+    public double getSalary() {
+        return 40000;
+    }
+
+    public int compareTo(Clovek dalsiClovek) {
+        int serazenePrijmeni = this.prijmeni.compareTo(dalsiClovek.prijmeni);
+        if (serazenePrijmeni == 0) {
+            serazenePrijmeni = this.jmeno.compareTo(dalsiClovek.jmeno);
+        }
+        return serazenePrijmeni;
     }
     @Override
     public String toString() {
-        return this.prijmeni + " " + this.jmeno;
+        return this.prijmeni + " " + this.jmeno + " " + getSalary();
     }
     public static void main(String[] args) {
-        Clovek[] lide = {
-                new Clovek("Jan", "Novák"),
-                new Clovek("Petr", "Svoboda"),
-                new Clovek("Adam", "Novák"),
-                new Clovek("Eva", "Dvořáková")
+        Clovek[] podrizeni = {
+                new Clovek("David", "Ryba"),
+                new Clovek("Erik", "Humr"),
+                new Clovek("Marty", "Ryba"),
+                new Clovek("Nazar", "Pitsur"),
+                new Clovek("Ondrej","Rozkosny"),
+                new intern("petr","Ludvik"),
         };
-        Arrays.sort(lide);
-        for (Clovek c : lide) {
-            System.out.println(c);
+        Arrays.sort(podrizeni);
+        for (Clovek C : podrizeni) {
+            System.out.println(C);
         }
     }
 }
